@@ -733,12 +733,12 @@ async def run_interaction(
             except Exception as e:
                 logger.warning(f"Failed to read system message file: {e}")
 
-        # Add resources to the conversation
-        if all_resources:
-            resource_msg = "You have access to the following resources:\n"
-            for resource in all_resources:
-                resource_msg += f"- {resource['name']}: {resource['description']}\n    details: {resource.get('text') or resource.get('blob')}\n"
-            conversation.append({"role": "system", "content": resource_msg})
+    # Add resources to the conversation
+    if all_resources:
+        resource_msg = "You have access to the following resources:\n"
+        for resource in all_resources:
+            resource_msg += f"- {resource['name']}: {resource['description']}\n    details: {resource.get('text') or resource.get('blob')}\n"
+        conversation.append({"role": "system", "content": resource_msg})
 
     conversation.append({"role": "user", "content": user_query})
 
