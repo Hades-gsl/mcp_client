@@ -64,3 +64,5 @@ Thumbs.db
 ~/.dolphin/
 /examples/dolphin_db_config.json
 *.jsonl
+
+log.json
