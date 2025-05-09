@@ -2,7 +2,7 @@
 Dolphin MCP - A flexible Python client for interacting with Model Context Protocol (MCP) servers.
 """
 
-from .client import MCPClient, run_interaction
+from .client import MCPClient, run_interaction, SSEMCPClient
 
 __version__ = "0.1.3"
-__all__ = ["MCPClient", "run_interaction"]
+__all__ = ["MCPClient", "run_interaction", "SSEMCPClient"]
