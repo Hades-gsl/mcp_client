@@ -4,11 +4,7 @@ This project is a customized version of [dolphin-mcp], tailored for study.
 
 ## Based on
 
-This project is based on [dolphin-mcp] by [author or organization], licensed under the [LICENSE TYPE].
-
-Please refer to `ORIGINAL_README.md` for the original documentation and usage details.
-
-[dolphin-mcp]: https://github.com/cognitivecomputations/dolphin-mcp
+This project is based on [dolphin-mcp] by [Eric Hartford](https://github.com/ehartford). Please refer to `ORIGINAL_README.md` for the original documentation and usage details.
 
 ## Modifications
 
@@ -16,3 +12,5 @@ Please refer to `ORIGINAL_README.md` for the original documentation and usage de
 - Changed log writing behavior from append mode to overwrite mode.
 - Removed the file dolphin_mcp.py.
 - Upgraded Python version requirement to 3.10.
+
+[dolphin-mcp]: https://github.com/cognitivecomputations/dolphin-mcp
