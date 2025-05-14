@@ -12,5 +12,6 @@ This project is based on [dolphin-mcp] by [Eric Hartford](https://github.com/eha
 - Changed log writing behavior from append mode to overwrite mode.
 - Removed the file dolphin_mcp.py.
 - Upgraded Python version requirement to 3.10.
+- Improved support for SEE in run_interaction.
 
 [dolphin-mcp]: https://github.com/cognitivecomputations/dolphin-mcp
